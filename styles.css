@@ -1,0 +1,116 @@
+body {
+  text-align: center;
+  background-color: #57beb6;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #ebba60;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #d66498;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.p {
+  background-image: url("images/piano1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.i {
+  background-image: url("images/piano2.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.a {
+  background-image: url("images/piano3.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.n {
+  background-image: url("images/piano4.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.o {
+  background-image: url("images/piano5.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.d {
+  background-image: url("images/piano6.png");
+  background-size: 100% 70%;
+  background-repeat: no-repeat;
+}
+
+.j {
+  background-image: url("images/piano7.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #619181;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+.btn{
+  cursor: pointer;
+  font-size: 1.2rem;
+  height: 50px;
+  margin: 5px;
+  border: 3px solid #619181;
+  padding: 0.5rem 1.8rem;
+  text-align: center;
+  background-color: #57beb562;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+  color: #496b60;
+}
